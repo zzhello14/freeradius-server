@@ -1694,7 +1694,7 @@ static inline void truncate_filename(char const **e, char const **p, int *len, c
 	size_t flen = talloc_array_length(filename) - 1;
 	char const *q;
 
-	#define FILENAME_TRUNCATE	200
+	#define FILENAME_TRUNCATE	60
 
 	*p = filename;
 
